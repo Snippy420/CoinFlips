@@ -1,0 +1,4 @@
+outside_bet_range: "[CF] Amount cannot be less than {min} or higher than {max}."
+unable_to_find_coinflip: "[CF] Unable to find CoinFlip for user: {steamId}."
+duel_message: "<color=#FF0000>[CF]</color> {player} Has challenged you to a CoinFlip for ${amount}\n<color=#00FF00>/cf accept</color> <color=#FF0000>/cf deny</color>"
+no_coinflips: "[CF] No active CoinFlips."

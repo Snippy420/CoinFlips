@@ -1,0 +1,10 @@
+C:\Users\frhod\RiderProjects\CoinFlip\CoinFlip\obj\Debug\netstandard2.1\CoinFlip.csproj.AssemblyReference.cache
+C:\Users\frhod\RiderProjects\CoinFlip\CoinFlip\obj\Debug\netstandard2.1\CoinFlip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frhod\RiderProjects\CoinFlip\CoinFlip\obj\Debug\netstandard2.1\CoinFlip.AssemblyInfoInputs.cache
+C:\Users\frhod\RiderProjects\CoinFlip\CoinFlip\obj\Debug\netstandard2.1\CoinFlip.AssemblyInfo.cs
+C:\Users\frhod\RiderProjects\CoinFlip\CoinFlip\obj\Debug\netstandard2.1\CoinFlip.csproj.CoreCompileInputs.cache
+C:\Users\frhod\RiderProjects\CoinFlip\CoinFlip\bin\Debug\netstandard2.1\CoinFlip.deps.json
+C:\Users\frhod\RiderProjects\CoinFlip\CoinFlip\bin\Debug\netstandard2.1\CoinFlip.dll
+C:\Users\frhod\RiderProjects\CoinFlip\CoinFlip\bin\Debug\netstandard2.1\CoinFlip.pdb
+C:\Users\frhod\RiderProjects\CoinFlip\CoinFlip\obj\Debug\netstandard2.1\CoinFlip.dll
+C:\Users\frhod\RiderProjects\CoinFlip\CoinFlip\obj\Debug\netstandard2.1\CoinFlip.pdb
