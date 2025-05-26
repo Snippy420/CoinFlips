@@ -26,7 +26,7 @@ namespace CoinFlip.Commands
         protected override async UniTask OnExecuteAsync()
         {
             var flips = await _coinFlipManager.GetAllCoinFlipsAsync();
-            if (flips.Count < 1) throw new UserFriendlyException(_localizer["no_coinflips"]);
+            if (flips.Count < 1) throw new UserFriendlyException(_localizer["errors:no_coinflips"]);
 
             var pageNumberRaw = Context.Parameters.Count > 0 ? Context.Parameters[0] : "1";
             var pageNumber = int.Parse(pageNumberRaw);

@@ -12,7 +12,7 @@ namespace CoinFlip.Services
         public List<CoinFlipInfo> CoinFlips { get; }
     
         public UniTask<List<CoinFlipInfo>> GetAllCoinFlipsAsync();
-        public UniTask<CoinFlipInfo> CreateCoinFlipAsync(UnturnedPlayer player, int amount, UnturnedPlayer? target = null);
+        public UniTask<CoinFlipInfo?> CreateCoinFlipAsync(UnturnedPlayer player, int amount, UnturnedPlayer? target = null);
         public UniTask DeleteCoinFlipAsync(UnturnedPlayer player);
         public UniTask JoinCoinFlipAsync(UnturnedPlayer player);
         public UniTask JoinCoinFlipAsync(int rank);

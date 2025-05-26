@@ -19,6 +19,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\frhod\RiderProjects\CoinFlip\CoinFlip\bin\Debug\netstandard2.1\CoinFlip.dll" target="lib\netstandard2.1\CoinFlip.dll" />
+    <file src="E:\RiderProjects\CoinFlip\CoinFlip\bin\Debug\netstandard2.1\CoinFlip.dll" target="lib\netstandard2.1\CoinFlip.dll" />
   </files>
 </package>
