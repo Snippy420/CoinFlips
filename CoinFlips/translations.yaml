@@ -1,0 +1,18 @@
+flipping: "Flipping..."
+you_lost: "You lost to {Player}"
+you_win: "You have won ${Amount} against {Player}"
+
+remove: "Successfully removed coinflip"
+none_active: "No active coinflips found"
+cf: "Coin Flips"
+page: "Page: {Page}"
+success: "Successfully created CF for ${Amount}"
+
+min_bet: "Min bet must be ${Amount}"
+max_bet: "Max bet cannot be more an ${Amount}"
+insufficient_funds: "Insufficient funds."
+lister_insufficient_funds: "Lister no long has enough money, removing listing"
+existing_cf: "You already have an active CF."
+unable_to_find: "Unable to find CF"
+own_cf: "You cannot accept your own CF"
+unknown: "An unknown error has occured"

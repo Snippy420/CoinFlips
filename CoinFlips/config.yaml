@@ -1,0 +1,4 @@
+webhook_url: WEBHOOK_HERE
+min_bet: 1000
+max_bet: 1000000
+tax_multi: 0.95
