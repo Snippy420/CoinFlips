@@ -67,7 +67,7 @@ public class CoinFlipManager : ICoinFlipManager
             var user = await _userManager.FindUserAsync(KnownActorTypes.Player, key.ToString(), UserSearchMode.FindById);
             var name = user?.DisplayName ?? key.ToString();
             
-            result.AppendLine($"{index}. {name}: {value}");
+            result.AppendLine($"{index}. {name}: ${value:N0}");
         }
 
         return result.ToString();
@@ -99,7 +99,7 @@ public class CoinFlipManager : ICoinFlipManager
         if (!CoinFlips.ContainsKey(lister)) throw new UserFriendlyException(_localizer["unable_to_find"]);
         var listing = CoinFlips.FirstOrDefault(x => x.Key == lister);
 
-        //if (player.SteamId == lister) throw new UserFriendlyException("You cannot accept your own CF");
+        if (player.SteamId == lister) throw new UserFriendlyException("You cannot accept your own CF");
         if (player.Player.skills.experience < listing.Value) throw new UserFriendlyException(_localizer["insufficient_funds"]);
 
         var uLister = _userDirectory.FindUser(lister);
@@ -183,7 +183,7 @@ public class CoinFlipManager : ICoinFlipManager
             }
             
             uLoser.Player.Player.skills.ServerModifyExperience(-listing.Value);
-            await player.PrintMessageAsync(_localizer["you_lost", new { Player = uWinner.DisplayName }], Color.Red);
+            await uLoser.PrintMessageAsync(_localizer["you_lost", new { Player = uWinner.DisplayName }], Color.Red);
             await uWinner.PrintMessageAsync(_localizer["you_win",
                 new
                 {

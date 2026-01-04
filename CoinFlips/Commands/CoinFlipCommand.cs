@@ -20,7 +20,7 @@ namespace CoinFlips.Commands
     [Command("coinflip")]
     [CommandDescription("lists active coinflips or start coinflip")]
     [CommandAlias("cf")]
-    [CommandSyntax("[page]")]
+    [CommandSyntax("[page | player]")]
     [CommandActor(typeof(UnturnedUser))]
     public class CoinFlipCommand : UnturnedCommand
     {
